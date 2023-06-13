@@ -1,0 +1,26 @@
+.bigC{
+    animation: fade 1s linear infinite
+}
+.bigC>div{
+    animation: fade2 1s linear infinite   
+}
+@keyframes fade {
+    0%{
+        transform: scale(1.1);
+        background-color: orchid;
+    }
+    100%{
+        transform: scale(1);
+        background-color: rgb(233, 159, 230);
+    }
+}
+@keyframes fade2 {
+    0%{
+        transform: scale(1.1);
+        background-color: rgb(161, 57, 157);
+    }
+    100%{
+        transform: scale(1);
+        background-color: rgb(238, 139, 235);
+    }
+}
